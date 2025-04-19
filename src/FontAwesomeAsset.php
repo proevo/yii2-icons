@@ -26,7 +26,11 @@ class FontAwesomeAsset extends AssetBundle
      */
     public $js = [
         // font awesome free version (can be overridden from yii2 asset manager)
-        'https://use.fontawesome.com/releases/v5.15.1/js/all.js'
+        //'https://use.fontawesome.com/releases/v5.15.1/js/all.js'
+    ];
+
+    public $css = [
+        'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'
     ];
 
     /**
